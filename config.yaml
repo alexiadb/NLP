@@ -1,0 +1,8 @@
+MOOC:
+  mongoUri: 'mongodb://tacm:4vtrwvveEXCnatLQnw59rHVEz3fLaTAcXOOrMSEQFt6fDYDVXVKwU4SRrxT8cyEoEs71LBGJhamXrreowvI74Q==@tacm.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@tacm@'
+  cognitive: 'https://cognitivekebab.cognitiveservices.azure.com/'
+  key: 'e1063997061746eab9a27c545452ae1c'
+  db: 'test'
+  collection: 'MOOC'
+
+

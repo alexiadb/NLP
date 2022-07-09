@@ -1,0 +1,31 @@
+
+<!doctype html>
+
+<style>
+  .neutral {color: black}
+  .negative {color: purple}
+  .positive {color: green}
+  .mixed {color: #ff7f00}
+</style>
+
+
+<title>MOOC</title>
+
+<form>
+
+MOOC: <select name="course_id" onchange="form.submit()">
+  <option/>
+  {% for item in courses %}
+  <option >{{item}}</option>
+  {% endfor %}
+</select> ({{course_id}})
+
+<ul>
+  {% for i in range(0, 10) %}
+  <li class="{{ resp.documents[i].sentiment}}"><b>{{ resp.documents[i].sentiment }}</b> : {{ resp.documents[i].sentences[0].text }}</li>
+  <li>langues: {{ languages[i]}}</li>
+  {% endfor %}
+</ul>
+
+
+</form>
